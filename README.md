@@ -5,6 +5,7 @@ Live <a href="https://jomonhh.github.io/Weather-app/">here</a>
 " A simple Weather app using html css and java script.<br>
 while giving access  to your location  you can easily  find the accurate  weather and also you can search  the location for weather  details. "
 
+Api used : <a href="https://openweathermap.org/">OpenWeatherMap.org<a>
 
 ## Getting started
 
