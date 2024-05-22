@@ -165,7 +165,7 @@ h1 {
 }
 
 .parameter p:first-of-type{
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     font-weight:600;
     text-transform: uppercase;
 }
@@ -215,7 +215,6 @@ h1 {
     align-items: center;
     justify-content: center;
     border-radius: 100%;
-    margin-bottom:1px;
 } 
 
 @media screen and (max-width:600px) {
