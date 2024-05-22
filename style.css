@@ -216,4 +216,26 @@ h1 {
     justify-content: center;
     border-radius: 100%;
     margin-bottom:1px;
+} 
+
+@media screen and (max-width:600px) {
+
+    .parameter{
+        height: 120px;
+    }   
+    
+    .parameter img{
+        width:40px;
+        height:40px;
+    }
+    
+    .parameter p:first-of-type{
+        font-size: 15px;
+    }
+    
+    .parameter p:last-of-type{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
 }
