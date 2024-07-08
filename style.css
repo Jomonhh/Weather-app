@@ -8,8 +8,8 @@
 .wrapper{
     width:100vw;
     height:100vh;
-    color: #ffffffd2;
-    background-image: linear-gradient(160deg, #150c2e 0%, #6c17da 100%);;
+    color: #ffffff;
+    background-image: linear-gradient(160deg, #110b21 0%, #6c17da 100%);;
 }
 
 h1 {
@@ -35,8 +35,9 @@ h1 {
 }
 
 .tab.current-tab{
-    background-color: rgba(209, 204, 204, 0.288);
+    background-color: rgba(0, 0, 0, 0.463);
     border-radius: 5px;
+    padding: 10px;
 }
 
 .weather-container{
@@ -48,10 +49,12 @@ h1 {
     font-size: 0.85rem;
     text-transform: uppercase;
     border-radius: 5px;
-    background-color: #00000080;
+    background-color: rgba(0, 0, 0, 0.292);
     cursor: pointer;
     padding: 10px 30px;
-    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.463);
 }
 
 .sub-container{
@@ -149,7 +152,7 @@ h1 {
 .parameter{
     width:30%;
     max-width:200px;
-    background-color: rgba(246, 248, 251, 0.133);
+    background-color: rgba(0, 0, 0, 0.463);
     border-radius: 5px;
     padding:1rem;
     display: flex;
@@ -195,16 +198,16 @@ h1 {
     width: calc(100% - 80px);
     height:40px;
     padding: 0px 20px 3px;
-    background-color: rgba(246, 248, 251, 0.133);
+    background-color: rgba(0, 0, 0, 0.292);
     border-radius: 25px;
 }
 
 .form-container input::placeholder{
-    color: rgba(249, 249, 249, 0.838);
+    color: #ffffffc1;
 }
 
 .form-container input:focus{
-    outline: 3px solid rgba(255, 255, 255, 0.7);
+    outline: 2px solid #ffffffc1;
 }
 
 .form-container .btn {
